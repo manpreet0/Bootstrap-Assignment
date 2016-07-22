@@ -1,0 +1,94 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+  text-align: center;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+nav ul a{
+  font-family: sans-serif;
+  }
+nav ul
+  {
+    padding-top: 5px;
+  }
+.jumbotron{
+  padding-top: 120px;
+  background-color: lightgreen;
+}
+.jumbotron p{
+  font-size: 15px;
+}
+#shopnow{
+  font-size: 10px;
+}
+
+nav {
+  background-color: white;
+}
+nav img{
+  text-align: left;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   .carousel-inner > .item > img,
+   .carousel-inner > .item > a > img{
+   width: 100%; /* use this, or not */
+   margin: auto;
+
+   }
+
+   .carousel-inner > .item > img{
+
+         height:500px;
+       }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
