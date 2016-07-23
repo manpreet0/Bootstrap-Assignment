@@ -16,12 +16,21 @@ Notes:	 Hand coded for Udemy.com
 #features{
   text-align: center;
 }
+footer{
 
+  background: lightgrey;
+  color: eee;
+  font-size: 11px;
+  padding: 20px;
+}
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
-
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
 
 
 /* --------------------------------------
@@ -44,13 +53,11 @@ nav ul
 #shopnow{
   font-size: 10px;
 }
+#search{
+  width: 200px;
+}
 
-nav {
-  background-color: white;
-}
-nav img{
-  text-align: left;
-}
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
